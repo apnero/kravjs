@@ -70,7 +70,7 @@
 
 				var loader = new THREE.JSONLoader();
 
-				loader.load( "obj/level_5.KravLogo.js", function( geometry ) {
+				loader.load( "model/level_5.KravLogo.js", function( geometry ) {
 
 					kravMesh = new THREE.Mesh( geometry, materialScene );
 					kravMesh.position.set( 0, 45, 0  );
@@ -84,7 +84,7 @@
 					scene.add( kravMesh );
 
 				} );
-				loader.load( "obj/level_5.CannonRidgeMesh.js", function( geometry ) {
+				loader.load( "model/level_5.CannonRidgeMesh.js", function( geometry ) {
 
 					crMesh = new THREE.Mesh( geometry, materialScene );
 					crMesh.position.set(-110,-100, 0 );
@@ -100,7 +100,7 @@
 				} );
 				
 
-				loader.load( "obj/level_5.FitnessMesh.js", function( geometry ) {
+				loader.load( "model/level_5.FitnessMesh.js", function( geometry ) {
 
 					fitnessMesh = new THREE.Mesh( geometry, materialScene );
 					//fitnessMesh.position.set( 0, 30, 0 );
@@ -115,7 +115,7 @@
 
 				} );
 				
-				loader.load( "obj/level_5.IntelligenceMesh.js", function( geometry ) {
+				loader.load( "model/level_5.IntelligenceMesh.js", function( geometry ) {
 
 					intelligenceMesh = new THREE.Mesh( geometry, materialScene );
 
@@ -127,7 +127,7 @@
 				} );
 				
 				
-				loader.load( "obj/level_5.Self-DefenseMesh.js", function( geometry ) {
+				loader.load( "model/level_5.Self-DefenseMesh.js", function( geometry ) {
 
 					selfdefenseMesh = new THREE.Mesh( geometry, materialScene );
 
